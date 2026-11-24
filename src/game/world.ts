@@ -25,7 +25,7 @@ const newPickup = (): Pickup => ({ active: false, kind: 'xp', x: 0, y: 0, vx: 0,
 export function baseStats(): Stats {
   return {
     damage: 1, fireRate: 1, cooldown: 1, area: 1, projSpeed: 1, duration: 1, amount: 0,
-    moveSpeed: 150, maxHp: 100, regen: 0, pickupRange: 60, crit: 0.05, critMult: 2,
+    moveSpeed: 150, maxHp: 100, regen: 0, pickupRange: 85, crit: 0.05, critMult: 2,
     armor: 0, dmgTaken: 1, xpMult: 1, knock: 1, size: 1,
   };
 }

@@ -1,0 +1,17 @@
+{
+  "id": "./?app=errata-nib",
+  "name": "ERRATA — The Last Proofreader",
+  "short_name": "ERRATA",
+  "description": "An offline one-thumb roguelike. You are Nib, the last red-ink fountain pen, correcting a book that is rebelling against its author.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b1a22",
+  "theme_color": "#1b1a22",
+  "icons": [
+    { "src": "icons/errata-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/errata-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/errata-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
